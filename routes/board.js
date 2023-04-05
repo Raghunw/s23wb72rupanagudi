@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   console.log(`cols ${query.cols}`);
   var rows=Number(query.rows);
   var cols=Number(query.cols);
-  res.render('board', { title: 'Board display',query:query });
+  res.render('board', { title: 'Board Display',query:query });
 
 });
 
